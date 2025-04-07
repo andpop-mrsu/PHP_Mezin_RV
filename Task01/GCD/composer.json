@@ -1,0 +1,28 @@
+{
+    "name": "romamezin/php_mezin_rv",
+    "description": "Implementation of a php program on the topic \"Greatest common divisor\"",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Romamezin\\GCD\\": "src/"
+        },
+        "files": [
+            "src/Controller.php",
+            "src/View.php"
+        ]
+    },
+    "bin": [
+        "bin/gcd"
+    ],
+    "authors": [
+        {
+            "name": "Bulat Mezin",
+            "email": "mezin-02@inbox.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.0"
+    }
+}
